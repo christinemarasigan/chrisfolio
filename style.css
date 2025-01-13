@@ -328,7 +328,13 @@ section {
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.experience-details-container1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.experience-details-container2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -339,7 +345,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1rem;
   justify-content: space-around;
 }
 
@@ -422,6 +428,18 @@ article .icon {
   height: 2.5rem;
 }
 
+.video-container {
+  display: center;
+  padding: 50px; /* Adjust padding for the gradient border thickness */
+  background: linear-gradient(90deg, #29add1, #1cd7bb);
+}
+
+video {
+  display: block;
+  margin-left: 320px;
+  margin-bottom: 13px;
+}
+
 /* FOOTER SECTION */
 
 footer {
@@ -444,3 +462,13 @@ footer p {
   margin: 0 10px; /* Add space between the images */
 }
 
+.image-container2 {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+}
+
+.image-container2 img {
+  width: 350px;
+  height: auto;
+  margin: 0 10px; /* Add space between the images */
+}
